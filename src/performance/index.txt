@@ -1,0 +1,4 @@
+import { getFistScreenLoad } from './fistScreenLoad.js'
+import { performanceInit } from './init.js'
+
+export { getFistScreenLoad, performanceInit }

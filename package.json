@@ -1,0 +1,50 @@
+{
+  "_from": "easy-basics-utils",
+  "_id": "easy-basics-utils@0.1.30",
+  "_inBundle": false,
+  "_integrity": "sha512-SDGv6Kj2oFd0UYtZfTKZfgx+0TlmWWqgi3jMZ7QpM0jBpy9bt+i+YcObXA6FuRNaZ5eEGnyr62IfI1dak/giUw==",
+  "_location": "/easy-basics-utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "easy-basics-utils",
+    "name": "easy-basics-utils",
+    "escapedName": "easy-basics-utils",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://maven.saas.crland.com.cn/nexus/repository/npm-group/easy-basics-utils/-/easy-basics-utils-0.1.30.tgz",
+  "_shasum": "c2adabfcb7f19910c10f7e25de170f8edbbd79fd",
+  "_spec": "easy-basics-utils",
+  "_where": "C:\\Users\\meiqiang6\\Desktop\\新建文件夹",
+  "author": {
+    "name": "dengtongjing@foxmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A description of your awesome package",
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/preset-env": "^7.14.5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
+  "name": "easy-basics-utils",
+  "scripts": {
+    "build": "npm run build:lib && npm run build:es",
+    "build:es": "babel src --out-dir dist/es",
+    "build:lib": "babel src --out-dir dist/lib --presets @babel/preset-env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.30"
+}

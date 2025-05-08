@@ -1,2 +1,2 @@
-# easy-basics-utils
-埋点上报分析
+npm run build 
+npm publish
